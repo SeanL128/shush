@@ -1,0 +1,12 @@
+{
+  "name": "shush",
+  "description": "Turns down model verbosity without losing substance — selection over compression, smallest high-impact output. The ponytail for prose.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Sean Lindsay",
+    "url": "https://seanlindsay.xyz"
+  },
+  "homepage": "https://seanlindsay.xyz/shush",
+  "license": "MIT",
+  "keywords": ["verbosity", "concise", "output", "tokens", "prose"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "shush",
+  "owner": {
+    "name": "Sean Lindsay",
+    "url": "https://seanlindsay.xyz"
+  },
+  "plugins": [
+    {
+      "name": "shush",
+      "source": "./",
+      "description": "Turns down model verbosity without losing substance — selection over compression, smallest high-impact output."
+    }
+  ]
+}
