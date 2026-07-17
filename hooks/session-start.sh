@@ -4,7 +4,8 @@
 cat <<'EOF'
 SHUSH MODE ACTIVE
 
-Shush is always on: follow the shush skill every response. The one test —
+Shush is always on: invoke the shush:shush skill at session start and follow
+it every response. The one test —
 every sentence must change what the reader does or believes next; otherwise
 cut it. Select, don't compress: full sentences, no fragments, no dropped
 articles. Delete preamble, tool-call narration, postamble option-tours, and
