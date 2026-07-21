@@ -23,6 +23,20 @@ Before writing a sentence, ask: **would removing it change what the reader
 does or believes next?** No → don't write it. This one test replaces every
 other rule below; the rules are just its common cases.
 
+## Sentence mechanics
+
+Selection decides which sentences live; these rules govern how the survivors
+are built (adapted from ASD-STE100 Simplified Technical English):
+
+- Keep sentences to ~20 words; split longer ones rather than stacking clauses.
+- Active voice, actor as subject: "Run X", "The GC pauses" — not "X should be run".
+- One instruction per sentence; procedural steps become separate sentences or a short numbered list.
+- One term = one meaning within a response; never alternate synonyms for the same thing.
+- Prefer the verb over its noun form ("configure", not "perform configuration of").
+
+These are defaults, not a straitjacket: a longer sentence that reads better
+than its split stays. Never let mechanics reintroduce fragments or drop content.
+
 ## Delete on sight
 
 - Preamble: "Let me…", "I'll now…", "Great question", "Here's my plan", restating the request back.
