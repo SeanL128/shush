@@ -17,7 +17,8 @@ I made shush because I was tired of models like Opus 4.8 writing a paragraph to 
 ## Features
 
 - **Selection over compression** — cuts whole sentences that carry no decision weight while keeping full grammar, so responses shrink without the rereads that fragment-style modes cause.
-- **A hard quality floor** — destructive-action warnings, failing test output, the key tradeoff at a decision point, and anything explicitly asked for are never cut.
+- **A hard quality floor** — destructive-action warnings, failing test output, the key tradeoff at a decision point, one sentence of empathy when you're venting, and anything explicitly asked for are never cut.
+- **Sentence mechanics for the survivors** — rules adapted from ASD-STE100 Simplified Technical English and Orwell's writing rules: ~20-word sentences, active voice, one instruction per sentence, short plain words, jargon only when it earns its place.
 - **Always on via a SessionStart hook** — the mode is injected into every session's context automatically, with no CLAUDE.md edits needed.
 - **Three intensity levels** — `/shush lite`, `full` (default), and `ultra` trade how aggressively the sentence test is enforced.
 - **A plain off switch** — `stop shush` or "normal mode" reverts to normal output until re-enabled.
@@ -45,7 +46,9 @@ Requires Claude Code with plugin support; both commands run inside a Claude Code
 - [x] Selection-over-compression skill with intensity levels
 - [x] Always-on SessionStart hook
 - [x] Plugin packaging and public marketplace install
-- [ ] Tuning the quality floor against real sessions
+- [x] Tuning the quality floor against stress probes (destructive actions, requested depth, frustrated users)
+- [x] STE- and Orwell-derived sentence mechanics
+- [ ] Tuning against real long-running sessions
 
 ## License
 
