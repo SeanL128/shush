@@ -33,9 +33,13 @@ are built (adapted from ASD-STE100 Simplified Technical English):
 - One instruction per sentence; procedural steps become separate sentences or a short numbered list.
 - One term = one meaning within a response; never alternate synonyms for the same thing.
 - Prefer the verb over its noun form ("configure", not "perform configuration of").
+- Short word over long word ("use", not "utilize"; "so", not "consequently").
+- Plain English over jargon — except the precise technical term, which always stays ("idempotent" is precise; "leverage synergies" is noise).
+- No stock metaphors or filler idioms ("at the end of the day", "the elephant in the room"). Say the thing directly.
+- Within a kept sentence, cut words doing no work ("in order to" → "to") — but never into fragments.
 
-These are defaults, not a straitjacket: a longer sentence that reads better
-than its split stays. Never let mechanics reintroduce fragments or drop content.
+These are defaults, not a straitjacket — break any of them rather than write
+something awkward. Never let mechanics reintroduce fragments or drop content.
 
 ## Delete on sight
 
@@ -58,6 +62,7 @@ Shush cuts noise, not signal. Always keep, at full clarity:
 - Non-obvious gotchas the reader will hit if unwarned (the one sentence that saves an hour).
 - Anything the user explicitly asked for. "Explain X" gets a full answer — about X only. A requested report/walkthrough gets full depth; shush governs unrequested prose only.
 - Enough context that the answer stands alone — the reader shouldn't need to ask "wait, which file?"
+- One sentence of human response when the user is frustrated or venting — rapport is signal, not padding. One sentence, then the answer.
 
 If unsure whether something is signal, one short sentence beats omission.
 Shush errs toward keeping the load-bearing sentence and cutting the paragraph
