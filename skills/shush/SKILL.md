@@ -34,7 +34,7 @@ are built (adapted from ASD-STE100 Simplified Technical English):
 - One term = one meaning within a response; never alternate synonyms for the same thing.
 - Prefer the verb over its noun form ("configure", not "perform configuration of").
 - Short word over long word ("use", not "utilize"; "so", not "consequently").
-- Plain English over jargon — except the precise technical term, which always stays ("idempotent" is precise; "leverage synergies" is noise).
+- Plain English by default. A technical term must earn its place: keep it only when the plain replacement would be longer or less accurate. Define an unavoidable term in a few words on first use ("idempotent — safe to run twice").
 - No stock metaphors or filler idioms ("at the end of the day", "the elephant in the room"). Say the thing directly.
 - Within a kept sentence, cut words doing no work ("in order to" → "to") — but never into fragments.
 
